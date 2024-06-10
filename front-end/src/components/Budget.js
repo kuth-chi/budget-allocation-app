@@ -2,6 +2,22 @@
 // Budget.js
 import { createContext, useReducer } from "react";
 
+const Budget = () => {
+    const { budget } = useContext(AppContext);
+    const [newBudget, setNewBudget] = useState(buget);
+    const handleBudgetChange = (event) => {
+        setNewBudget(event.target.value);
+    }
+    return (
+        <div className="alert alert-secondary">
+            <span>Budget: £{budget}</span>
+            <input type='number' step='10' value={newBudget} onChange={handleBudgetChange}></input>
+        </div>
+    );
+};
+
+export default Budget;
+
 // 5. The reducer - This is used to update the state, based on the action
 export const AppReducer = (state, action) => {
     let budget = 0;
