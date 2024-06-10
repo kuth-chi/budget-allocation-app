@@ -12,6 +12,7 @@ Clone repository to local machine, from the local directory integrate with termi
 
 ```bash
 git clone github.com/${username}/budget-allocation-app
+cd budget-allocation-app/front-end
 ```
 Make sure replace **${username}** with your own Github username.
 <br />
