@@ -18,5 +18,18 @@ Make sure replace **${username}** with your own Github username.
 Finally you got it inside directory 🤟
 <br />
 
+### 3. Step
+
+Open terminal or cmd and run command below.
+
+```bash
+npm install -s
+npm start
+```
+
+<br />
+A new tab on browser should be opened as 
+**http://localhost:3000**
+
 If you got issue visit [HERE](https://github.com/kuth-chi/budget-allocation-app/issues) 
 Then create <kbd> <br/> New issue <br /> </kbd>
